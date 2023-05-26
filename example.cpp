@@ -1,6 +1,7 @@
 #include <iostream>
 
 using namespace std;
+
 int multiplicacao (int x, int y) {
     return x*y;
 }
@@ -12,7 +13,6 @@ int main() {
     cout << "Coloque dois numeros:";
     cin >> a >> b;
     cout << multiplicacao(a,b) << endl;
-    
     return 0;
 }
 
