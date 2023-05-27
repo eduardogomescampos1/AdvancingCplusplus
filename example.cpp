@@ -7,7 +7,7 @@ int multiplicacao (int x, int y) {
 }
 
 double divisao(int x, int y) {
-    return x/y;
+    return (double)x/y;
 }
 
 int main() {
