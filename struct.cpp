@@ -2,22 +2,22 @@
 
 struct person {
     int age;
-    std::string sex;
+    std::string gender;
     bool alive;
 
     void kill () {
         if (alive) {
-        std::cout << "Now he's dead lmao" << std::endl;
+        std::cout << "Passed away" << std::endl;
         alive = false;
-        } else std::cout << "Again?" << std::endl;
+        } else std::cout << "Can't do that" << std::endl;
     }
 } ;
 
 int main () {
     struct person p1;
     p1.age = 70;
-    p1.sex = "male";
-    p1.alive = true;
+    p1.gender = "male";
+    p1.alive = false;
     p1.kill();
     std::cout << p1.alive << std::endl;
     return 0;
