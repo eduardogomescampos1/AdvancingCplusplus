@@ -6,6 +6,10 @@ int multiplicacao (int x, int y) {
     return x*y;
 }
 
+double divisao(int x, int y) {
+    return x/y;
+}
+
 int main() {
     int a,b;
     cout << "Ola!" << endl;
@@ -13,6 +17,7 @@ int main() {
     cout << "Coloque dois numeros:";
     cin >> a >> b;
     cout << multiplicacao(a,b) << endl;
+    cout << divisao(a,b) << endl;
     return 0;
 }
 
