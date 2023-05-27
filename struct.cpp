@@ -20,5 +20,6 @@ int main () {
     p1.alive = false;
     p1.kill();
     std::cout << p1.alive << std::endl;
+    std::cout << sizeof(p1) << std::endl;
     return 0;
 }
