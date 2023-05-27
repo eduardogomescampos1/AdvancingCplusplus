@@ -20,4 +20,5 @@ int main () {
     p1.alive = true;
     p1.kill();
     std::cout << p1.alive << std::endl;
+    return 0;
 }
